@@ -1,0 +1,46 @@
+
+body {
+  font-family: 'Arial', sans-serif;
+  background: #fefefe;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  direction: rtl;
+}
+
+header {
+  background: linear-gradient(to right, #0066cc, #00ccff);
+  color: white;
+  padding: 2rem;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  margin: 0 1rem;
+  text-decoration: none;
+}
+
+section {
+  padding: 2rem;
+  max-width: 900px;
+  margin: auto;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li::before {
+  content: "🔹 ";
+  color: #0066cc;
+}
+
+footer {
+  background-color: #eee;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+  font-size: 0.9rem;
+}
